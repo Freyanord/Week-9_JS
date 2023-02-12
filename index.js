@@ -34,3 +34,6 @@ time = 0;
 console.log('Вы приехали. Добро пожаловать в Москву.');
 
 //Задание 8
+let fahrenheit = 451;
+let celsius = (fahrenheit-32)/1.8;
+console.log('_fahrenheit_ градуса по Фаренгейту — это _celsius_ градуса по Цельсию.');
