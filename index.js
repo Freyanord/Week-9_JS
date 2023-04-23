@@ -1,7 +1,7 @@
 //Задание 1
-let x = 40000;
-let y = 22000;
-let z = x+y;
+const x = 40000;
+const y = 22000;
+const z = x + y;
 console.log(z);
 
 //Задание 2
@@ -14,7 +14,7 @@ console.log((128 + 254 + 137 + 201)/60);
 console.log(2 ** 5);
 
 //Задание 5
-let str = "Нужно бежать со всех ног, чтобы только оставаться на месте, а чтобы куда-то попасть, надо бежать как минимум вдвое быстрее!"
+const str = "Нужно бежать со всех ног, чтобы только оставаться на месте, а чтобы куда-то попасть, надо бежать как минимум вдвое быстрее!"
 console.log(str);
 
 //Задание 6
@@ -24,6 +24,7 @@ console.log(greetings + ',' + name);
 
 //Задание 7
 let time;
+//console.log (time);
 time = 34;
 console.log('Старт поездки. Осталось минут: ' + time); 
 time = 19;
@@ -34,6 +35,6 @@ time = 0;
 console.log('Вы приехали. Добро пожаловать в Москву.');
 
 //Задание 8
-let fahrenheit = 451;
-let celsius = (fahrenheit-32)/1.8;
+const fahrenheit = 451;
+const celsius = (fahrenheit-32)/1.8;
 console.log(`${fahrenheit} градуса по Фаренгейту — это ${celsius} градуса по Цельсию.`);
